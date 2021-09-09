@@ -1,7 +1,15 @@
-<div class="container mt-3">
-  <div class="row justify-content-center">
-    <div class="col">
-      <h1>Middleman Boilerplate</h1>
-    </div>
+<div class="home-page">
+  <div>
+    <h2>Daniel Rabottini</h2>
+    <p>Project Manager | Web Developer</p>
+    <%= link_to "About", '/#about' %>
+    <%= link_to "Projects", '/#project' %>
+    <%= link_to "Contact", '/#contact' %>
   </div>
+</div>
+<div>
+  <%= partial 'project' %>
+</div>
+<div>
+  <%= partial 'about' %>
 </div>

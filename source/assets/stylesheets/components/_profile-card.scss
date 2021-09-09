@@ -1,0 +1,41 @@
+body {
+  background-color: rgb(166, 188, 207);
+}
+
+.top-sizing {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+}
+.profile-card {
+background-color: rgba(182, 208, 219, 0.6);
+padding: 1.5em;
+border-radius: 20px;
+box-shadow: 3px 3px 10px 5px rgba(0, 0, 0, 0.3);
+}
+.profile-img{
+  object-fit: cover;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  box-shadow: 3px 3px 10px 5px rgba(0, 0, 0, 0.3);
+  float: left;
+  // shape-outside: circle(50%);
+  margin-right: 4em;
+}
+
+.highlight-word {
+font-size: 22px;
+font-weight: 800;
+}
+
+
+.header-text {
+  font-size: 20px;
+  margin-top: 3em;
+  // text-align: center;
+}
+
+.about-me-title {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}

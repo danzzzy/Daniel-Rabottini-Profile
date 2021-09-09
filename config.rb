@@ -28,6 +28,7 @@ activate :external_pipeline,
 page '/*.xml',  layout: false
 page '/*.json', layout: false
 page '/*.txt',  layout: false
+activate :directory_indexes  #Removes .html from file
 
 configure :development do
   set      :debug_assets, true
