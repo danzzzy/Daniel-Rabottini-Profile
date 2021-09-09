@@ -1,22 +1,23 @@
 .home-page {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   margin-top: 3em;
-  text-align: center;
+  margin-left: 3em;
+  a {
+    color: rgba(0, 0, 0, 0.6);
+    &:hover {
+      text-decoration: none;
+      color: rgba(0, 0 ,0, 1);
+    }
+  }
 }
 
 .project-section {
   padding: 2em;
-  background: rgba(255, 255, 255, 0.7);
   margin: 2em;
-  border-radius: 20px;
-  img {
-    width: 100%;
-    box-shadow: 3px 3px 10px 5px rgba(0, 0, 0, 0.3);
-    border-radius: 20px;
-  }
 }
 
 body {
   font-family: $my-font;
+  background-color: white;
 }
