@@ -16,7 +16,7 @@
 .card-trip h2 {
   font-size: 24px;
   font-weight: bold;
-  margin: 0;
+  margin: 16px 0;
 }
 
 .card-trip p {
@@ -28,18 +28,12 @@
 
 .card-trip .card-trip-infos {
   padding: 16px;
+  height: 350px;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  align-items: flex-end;
-  position: relative;
 }
 
-.card-trip-infos .card-trip-user {
-  position: absolute;
-  right: 16px;
-  top: -20px;
-  width: 40px;
-}
 
 .card-trip a {
     text-align: center;
@@ -47,14 +41,14 @@
     padding: 8px 30px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
     border-radius: 20px;
-    background-color: rgb(0, 0, 0);
-    color: white;
-  &:hover {
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
-    text-decoration: none;
-    border-radius: 20px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(231, 231, 231);
     color: black;
+    &:hover {
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+      text-decoration: none;
+      border-radius: 20px;
+      background-color: rgb(0, 0, 0);
+      color: white;
   }
 }
