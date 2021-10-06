@@ -1,15 +1,21 @@
 .home-page {
   display: flex;
-  justify-content: left;
-  margin-top: 3em;
-  margin-left: 3em;
-  a {
-    color: rgba(0, 0, 0, 0.6);
-    &:hover {
-      text-decoration: none;
-      color: rgba(0, 0 ,0, 1);
-    }
-  }
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+}
+
+.name-container {
+width: 700px;
+height: 400px;
+padding: 3em;
+border: 1px solid black;
+background-color: white;
+box-shadow: 6px 6px 8px rgba(0, 0, 0, 0.7);
+border-radius: 5px;
+h1 {
+  font-size: 54px;
+}
 }
 
 .project-section {
@@ -21,4 +27,16 @@ body {
   font-family: $my-font;
   background-color: white;
   background-image: url('../images/houndstooth-pattern.png');
+}
+
+.about-me-btn {
+  background: lightblue;
+  border-radius: 50%;
+  padding: 8px 16px;
+}
+
+.project-btn {
+  background: lightblue;
+  border-radius: 50%;
+  padding: 8px 16px;
 }

@@ -1,10 +1,17 @@
 <div class="home-page">
-  <div>
-    <div class="d-flex align-items-center">
-      <h2 style="margin-right: 8px;">Daniel Rabottini</h2>
-      <p style="margin: 0;">Project Manager | Web Developer</p>
+    <div class="name-container d-flex align-items-center">
+      <div>
+        <h1>Daniel Rabottini</h1>
+        <p style="font-size: 20px;">Freelance Web Developer
+        <br>HTML/ CSS/ Javascript/ Ruby</p>
+        <br>
+        <p style="font-size: 18px;">Hi, everyone!
+        <br>I am a fullstack web developer looking for new opportunities.
+        <br>Currently reside in Shizuoka, Japan.</p>
+        <div class="d-flex justify-content-center">
+          <%= link_to 'About me', '/about', class:"about-me-btn" %>
+          <%= link_to 'Projects', '/project', class:"project-btn" %>
+        </div>
+      </div>
     </div>
-    <%= link_to "About", '#about', style:"margin:8px;"%>
-    <%# <%= link_to "Contact", '#contact' %>
-  </div>
 </div>
