@@ -1,24 +1,31 @@
-<%= partial "partials/navbar" %>
 <div class="top-sizing" id ="about">
-  <div class="container">
-    <div class="row justify-content-center" style="align-items: center;">
-      <div class="col col-md-10 profile-card">
-            <h3 style="text-align: center;" class="about-me-title">My Journey</h3>
-          <%= image_tag "daniel-img.jpg", class:"profile-img" %>
-            <div class="header-text">
-                <p>Hi, nice to meet you, my name is Daniel Rabottini.
-                <br>I am originally from Chicago and love to travel, experience new cultures, and learn new languages. I have lived in multiple countries: Korea 🇰🇷, Taiwan 🇹🇼, Nigeria 🇳🇬, and now Japan 🇯🇵.
-                I speak English and 日本語 (Japanese) fluently, basic conversational level of 한글 (Korean) and 中文 (Mandarin)
-                <br>Hobbies:
-                <i class="fas fa-plane"></i> travelling,
-                <i class="fas fa-code"></i> coding,
-                <i class="fas fa-mountain"></i> hiking
-                </p>
-                <a href="https://github.com/danzzzy"><i class="devicon-github-original-wordmark"></i></a>
-                <a href="https://www.linkedin.com/in/daniel-rabottini/"><i class="devicon-linkedin-plain"></i></a>
-                <%# <p>Feel free to <%= link_to "Contact Me", '#' %>
-                </p>
+  <div class="row justify-content-center">
+    <div class="col-md-11 col-lg-10 col-xl-8">
+      <div class="d-flex card-format">
+        <div class="d-flex align-items-center">
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <%= image_tag "daniel-img.jpg", class:"profile-img d-block", alt:"Profile Image1" %>
+              </div>
+              <div class="carousel-item">
+                <%= image_tag "daniel-img2.jpg", class:"profile-img d-block", alt:"Profile Image2" %>
+              </div>
+              <div class="carousel-item">
+                <%= image_tag "daniel-img3.jpg", class:"profile-img d-block", alt:"Profile Image3" %>
+              </div>
+            </div>
           </div>
+        </div>
+        <div class="header-text">
+          <h3 style="text-align: center;" class="about-me-title">My Journey</h3>
+          <p>Hi, nice to meet you, my name is Daniel Rabottini.
+          <br>I used to work as a Project Manager, but wanted to learn how to code for myself and decided to start a new path as a Web Developer after attending Le Wagon Bootcamp in Tokyo.</p>
+          <p>Little bit more about myself. I am originally from Chicago and love to travel, experience new cultures, and learn new languages. I have lived in multiple countries: Korea 🇰🇷, Taiwan 🇹🇼, Nigeria 🇳🇬, and now in Japan 🇯🇵.
+          I speak English and 日本語 (Japanese) fluently, basic conversational level of 한글 (Korean) and 中文 (Mandarin).
+          </p>
+        </div>
       </div>
     </div>
+  </div>
 </div>

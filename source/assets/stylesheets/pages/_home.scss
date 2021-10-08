@@ -1,10 +1,10 @@
 body {
-  font-family: $my-font;
   background-color: white;
   background-image: url('../images/houndstooth-pattern.png');
 }
 
 .main-container {
+font-family: $my-font;
 width: 700px;
 height: 400px;
 position: absolute;
@@ -13,10 +13,10 @@ top: 50%;
 left: 50%;
 padding: 0;
 h1 {
-  font-size: 54px;
+  font-size: 90px;
 }
 p {
-  font-size: 20px;
+  font-size: 24px;
 }
 }
 
@@ -85,7 +85,19 @@ p {
   .home-btn {
     padding: 8px 16px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.7);
-    margin-top: 4em;
+    margin-top: 2.5em;
+    color: black;
+    text-decoration: none;
+    transition: .5s ease-out;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 15px;
+    font-size: 20px;
+    &:hover {
+      color: rgba(255, 255, 255, 1);
+      background: linear-gradient(to left, rgb(209, 209, 209),rgb(121, 121, 121)) right;
+      text-decoration: none;
+      background-position: left;
+    }
   }
 
 .email-address {
@@ -105,32 +117,35 @@ p {
 transform: rotateY(180deg);
 }
 
-@media (max-width: 1057px) {
+@media (max-width: 1230px) {
   .main-container h1 {
-    font-size: 48px;
+    font-size: 80px;
   }
-  .home-btn {
-    margin-top: 3em;
-  }
+  // .home-btn {
+  //   margin-top: 3em;
+  // }
 }
 
 @media (max-width: 860px) {
   .main-container h1 {
-    font-size: 44px;
+    font-size: 70px;
+  }
+  .main-container {
+      height: 350px;
+    }
+    .main-container p {
+    font-size: 20px;
   }
 }
 
 @media (max-width: 804px) {
   .main-container h1 {
-    font-size: 40px;
-  }
-.main-container {
-    height: 350px;
+    font-size: 60px;
   }
 }
 @media (max-width: 680px) {
   .main-container h1 {
-    font-size: 36px;
+    font-size: 50px;
   }
   .main-container p {
     font-size: 18px;
@@ -144,6 +159,9 @@ transform: rotateY(180deg);
   .dr-logo {
     height: 70px;
     width: 70px;
+  }
+  .home-btn {
+    font-size: 18px;
   }
 }
 
