@@ -8,7 +8,9 @@
   display: block;
   overflow: hidden;
   width: 390px;
-  height: auto;
+  // height: auto;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.8);
+  border-radius: 15px;
 }
 
 .card-trip > img {
@@ -67,6 +69,7 @@
   background: white;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
+  height: 110px;
 }
 
 
